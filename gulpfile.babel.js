@@ -14,12 +14,13 @@ const fileinclude = require('gulp-file-include');
 const imagemin = require('gulp-imagemin');
 const eslint = require('gulp-eslint');
 const babel = require('gulp-babel');
+const babel = require('gulp-babel');
 
 // gulp.task('jshint', function() {
 //         gulp.src('./js/*.js')
 //                 .pipe(jshint())
 //                 .pipe(jshint.reporter('default'));
-// });
+//});
 
 gulp.task('js', cb => {
     return (
